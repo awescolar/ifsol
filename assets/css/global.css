@@ -38,9 +38,6 @@
 .light-1-color{color: var(--light-color-light-1);} .light-2-color{color: var(--light-color-light-2);} .light-3-color{color: var(--light-color-light-3);} .light-4-color{color: var(--light-color-light-4);}
 .branco-color{color: var(--branco);}  .mar-1-color{color: var(--mar-1);} .cinza-color{color: var(--cinza);} .black-color{color: var(--black);}
 
-h1, h2, h3, h4, h5, h6, p{
-    margin: 0 !important;
-}
 
 h1{
     font-size: 64px;
@@ -59,6 +56,13 @@ h3{
 ol, ul, li{
     margin: 0;
     padding: 0;
+}
+
+.navegacao {
+  margin: 88px 0px 64px 0px;
+}
+.navegacao :nth-child(3) {
+  border-bottom: 2px solid #ff9100;
 }
 
 .font-inter{
