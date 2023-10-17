@@ -1,0 +1,33 @@
+.h2-hero-index{
+    font-weight: 300;
+    letter-spacing: 0.8rem;
+}
+
+.text-hero-index{
+    max-width: 600px;
+    font-size: 1.5rem;
+}
+
+.button-hero-index{
+    padding: 0.75rem 3rem;
+    background-color: var(--amarelo-1);
+    border-radius: 0.25rem;
+}
+
+.button-hero-index:hover{
+    background-color: transparent;
+    border: var(--brand-colors-main-color) 1px solid;
+    color: var(--amarelo-1);
+}
+
+.hero-economia-solidaria{
+    padding: 6rem 0;
+}
+
+.valores{
+    background-color: var(--mar-1);
+}
+
+.parceiros{
+    padding: 7.625rem 0;
+}
