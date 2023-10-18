@@ -1,0 +1,32 @@
+$brand-colors-third:#3B1A0C;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+h1{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: $brand-colors-third !important;
+}
+
+h2{
+    font-size: 20px !important;
+    max-width: 500px;
+    margin: 25px 0px !important;
+}
+
+.card{
+    padding: 0 !important;
+}
+
+.pass{
+    margin: 80px 0;
+    p{
+        margin-bottom: 0 !important;
+    }
+}
