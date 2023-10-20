@@ -1,0 +1,7 @@
+.card-time{
+    width: 255px;
+    height: 213px;
+    border: 1px solid var(--cinza-2, #080707);
+    border-radius: 8px;
+    background-color: var(--branco-2, #F4F6FD);
+}
