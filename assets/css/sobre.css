@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/*Variáveis-início*/
+/*Variáveis-fim*/
+* {
+  line-height: 160%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3, h1 {
+  font-weight: 700;
+  font-family: Rubik;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+.navegacao {
+  margin: 88px 0px 64px 0px;
+}
+.navegacao :nth-child(3) {
+  border-bottom: 2px solid #ff9100;
+}
+
+.principal .principios {
+  margin: 150px 0px;
+}
+.principal .principios h1 {
+  font-size: 48px;
+  color: #523522;
+}
+.principal .conteudo {
+  max-width: 500px;
+  gap: 56px;
+}
+.principal .conteudo h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  color: #523522;
+}
+.principal .container-principios .item-principio {
+  margin-top: 120px;
+  width: -moz-min-content;
+  width: min-content;
+}
+.principal .container-principios .item-principio p {
+  text-align: justify;
+}
+.principal .container-principios .item-principio h3 {
+  width: -moz-max-content;
+  width: max-content;
+}
+.principal .ideais {
+  background-color: #523522;
+}
+.principal .ideais .container {
+  padding: 120px 48px 160px;
+}
+.principal .ideais .container .row div {
+  padding: 56px 48px;
+  background: #F4F6FD;
+  border-radius: 8px;
+}
+.principal .ideais .container .row div h3 {
+  padding-bottom: 40px;
+  border-bottom: 3px solid #ff9100;
+  font-size: 40px;
+}
+.principal .ideais .container .row div ul {
+  margin-top: 40px;
+  list-style: none;
+  padding-left: 0;
+  gap: 24px;
+  font-weight: 700;
+}/*# sourceMappingURL=sobre.css.map */
