@@ -5,3 +5,10 @@
     border-radius: 8px;
     background-color: var(--branco-2, #F4F6FD);
 }
+
+.time-homepage{
+    padding-top: 108px;
+    height: 1072px;
+    background-color: #FFFAF2 ;
+    background: url(../imgs/ilustra.svg) no-repeat left bottom;
+}
