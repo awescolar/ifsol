@@ -1,0 +1,20 @@
+.ultimas-publicacoes{
+    .publicacoes{
+        .left{
+            h4{
+                font-weight: 400;
+            }
+        }
+        .right{
+            width: 100%;
+            .item-noticias{
+                max-width: 289px;
+                .img{
+                    width: 289px;
+                    height: 170px;
+                    border: .5px solid var(--cinza-2);
+                }
+            }
+        }
+    }
+}

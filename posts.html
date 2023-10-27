@@ -12,22 +12,24 @@
     <!--styles_início-->
     <link rel="stylesheet" href="assets/css/typograph.css">
     <link rel="stylesheet" href="assets/css/variables.css">
-    <link rel="stylesheet" href="assets/css/sobre.css">
+    <link rel="stylesheet" href="assets/css/posts.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <!--styles_início-->
 </head>
 <body>
-
-    <header class="header pt-2 pb-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-3"></div>
-                <nav class="col-9">
-                    <ul class="menu text-end">                        
-                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu">Notícias</a></li>
-                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu">Sobre nós</a></li>
-                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu">Núcleos</a></li>
-                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu">Contato</a></li>
+    <header class="header-awe-background">
+        <div class="header pt-2 pb-2 container">
+            <div class="header-awe row">
+                <div class="col-4 d-flex align-items-center font-ubuntu">
+                    <h3 class="branco-color">LOGO</h3>
+                </div>
+                <nav class="col-8">
+                    <ul class="menu header-awe d-flex justify-content-end gap-5 align-items-center">
+                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu branco-color">PÁGINA INICIAL</a></li>
+                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu branco-color">NOTÍCIAS</a></li>
+                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu branco-color">SOBRE NÓS</a></li>
+                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu branco-color">NÚCLEOS</a></li>
+                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu branco-color">CONTATOS</a></li>
                     </ul>
                 </nav>
             </div>
@@ -35,14 +37,73 @@
     </header>
 
     <main class="principal">
-        <div class="navegacao d-flex gap-3">
-            <a>Inicial</a>
-            <img src="assets/imgs/right-arrow.svg" alt="seta-direita">
-            <a>Notícias</a>
+        <div class="container">
+            <div class="navegacao d-flex gap-3">
+                <a>Inicial</a>
+                <img src="assets/imgs/right-arrow.svg" alt="seta-direita">
+                <a>Notícias</a>
+            </div>
+            <div class="medium-font mar-1-color">
+                Notícias
+            </div>
+            <section class="ultimas-publicacoes">
+                <h4 class="mar-1-color sub-title mb-4 mt-5">Ultimas publicações</h4>
+                <section class="publicacoes d-flex justify-content-between row-gap-3">
+                    <div class="left row-gap-2 d-flex flex-column">
+                        <div class="img include-img"> <img src="assets/imgs/plantacao-img.png" alt="plantacao-img"><span class="include-span etiqueta-btn pt-1 pb-1 pe-2 ps-2">Categoria</span></div>
+                        <div class="detalhamento d-flex flex-column row-gap-2">
+                            <h4>Lorem ipsum dolor sit amet</h4>
+                            <p class="date">
+                                00.00.0000
+                            <p>
+                        </div>
+                    </div>
+
+                    <div class="right w-100 justify-content-between">
+                        <div class="row justify-content-around">
+                            <div class="item-noticias d-flex flex-column col row-gap-2">
+                                <div class="img include-img"><span class="include-span etiqueta-btn pt-1 pb-1 pe-2 ps-2">Categoria</span></div>
+                                <div class="detalhamento d-flex flex-column row-gap-2">
+                                    <p class="large-font">Lorem ipsum dolor sit amet</p>
+                                    <p class="date">
+                                        00.00.0000
+                                    <p>
+                                </div>
+                            </div>
+                            <div class="item-noticias d-flex flex-column col row-gap-2">
+                                <div class="img include-img"><span class="include-span etiqueta-btn pt-1 pb-1 pe-2 ps-2">Categoria</span></div>
+                                <div class="detalhamento d-flex flex-column row-gap-2">
+                                    <p class="large-font">Lorem ipsum dolor sit amet</p>
+                                    <p class="date">
+                                        00.00.0000
+                                    <p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-around">
+                            <div class="item-noticias d-flex flex-column col row-gap-2">
+                                <div class="img include-img"><span class="include-span etiqueta-btn pt-1 pb-1 pe-2 ps-2">Categoria</span></div>
+                                <div class="detalhamento d-flex flex-column row-gap-2">
+                                    <p class="large-font">Lorem ipsum dolor sit amet</p>
+                                    <p class="date">
+                                        00.00.0000
+                                    <p>
+                                </div>
+                            </div>
+                            <div class="item-noticias d-flex flex-column col row-gap-2">
+                                <div class="img include-img"><span class="include-span etiqueta-btn pt-1 pb-1 pe-2 ps-2">Categoria</span></div>
+                                <div class="detalhamento d-flex flex-column row-gap-2">
+                                    <p class="large-font">Lorem ipsum dolor sit amet</p>
+                                    <p class="date">
+                                        00.00.0000
+                                    <p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </div>
-        <section class="noticias">
-            
-        </section>
     </main>
     
     <footer class="footer-awe light-4-color d-flex flex-column">
