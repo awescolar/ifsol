@@ -14,9 +14,13 @@ a{
     text-decoration: none !important;
 }
 
-ol, ul, li, p{
+ol, ul, li, p, figure{
     margin: 0 !important;
     padding: 0 !important;
+}
+
+li{
+    list-style: none;
 }
 
 .transition-ease-in {
