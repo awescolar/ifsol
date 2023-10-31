@@ -5,7 +5,7 @@
   width: 100%;
 }
 .ultimas-publicacoes .publicacoes .right .item-noticias {
-  max-width: 289px !important;
+  display: inline-block;
   padding: 0 !important;
 }
 .ultimas-publicacoes .publicacoes .right .item-noticias .img {
