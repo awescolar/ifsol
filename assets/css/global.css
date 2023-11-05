@@ -52,11 +52,6 @@ li{
     left: 0.5rem;
     position: absolute;
 }
-
-.navegacao {
-    margin: 88px 0px 64px 0px;
-}
-
 .navegacao-select {
     border-bottom: 2px solid #ff9100;
 }

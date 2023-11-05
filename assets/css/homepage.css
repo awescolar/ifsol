@@ -1,15 +1,46 @@
-.card-time{
-    width: 255px;
-    height: 213px;
-    border: 1px solid var(--cinza-2, #080707);
-    border-radius: 8px;
-    background-color: var(--branco-2, #F4F6FD);
+.hero-homepage{
+    background: url(../imgs/image\ 16_9.svg) no-repeat;
+    background-size: cover;
+    padding-bottom: 14.25rem;
 }
 
-.time-homepage{
+.timeline-part{
+    position: relative;
+    height: 43.875rem;
+
+}
+
+.page-timeline{
+    max-width: 57rem !important;
+}
+
+.timeline{
+    background-color: var(--verde);
+    width: 0.4375rem;
+    height: 100%;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.card-timeline{
+    max-width: 29.75rem;
+}
+
+.card-team{
+    width: 255px;
+    height: 213px;
+    border: 1px solid var(--cinza-2);
+    border-radius: 8px;
+    background-color: var(--branco-2);
+}
+
+.team-homepage{
     padding-top: 108px;
     height: 1072px;
-    background-color: #FFFAF2 ;
+    background-color: #FFFAF2;
     background: url(../imgs/ilustra.svg) no-repeat left bottom;
 }
 
@@ -18,7 +49,7 @@
 }
 
 .line-center-homepage{
-    border: var(--brand-colors-main-color, #FF9100) 1px solid;
+    border: var(--brand-colors-main-color) 1px solid;
 }
 .card-projetos{
     background-color: var(--branco-2);
@@ -31,5 +62,8 @@
 
 .page-projetos-select{
     border-radius: 3.25rem;
-    background-color: var(--brand-colors-main-color, #FF9100);
+    background-color: var(--brand-colors-main-color);
+}
+.projetos-hoempage{
+    padding-bottom: 10.3125rem;
 }
