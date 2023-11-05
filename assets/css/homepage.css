@@ -24,3 +24,12 @@
     background-color: var(--branco-2);
     border-radius: 0.625rem;
 }
+
+.btn-page-projeto{
+    padding: 0.5625rem 1.0625rem;
+}
+
+.page-projetos-select{
+    border-radius: 3.25rem;
+    background-color: var(--brand-colors-main-color, #FF9100);
+}
