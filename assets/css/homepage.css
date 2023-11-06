@@ -6,12 +6,12 @@
 
 .timeline-part{
     position: relative;
-    height: 43.875rem;
-
+    height: 100% !important;
 }
 
 .page-timeline{
     max-width: 57rem !important;
+    height: 41rem;
 }
 
 .timeline{
@@ -27,6 +27,14 @@
 
 .card-timeline{
     max-width: 29.75rem;
+}
+
+.gradient-saiba-mais{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 5.09%, #FFF 51.95%) !important;
+    padding: 9.6875rem 0rem 2.875rem 0rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .card-team{
