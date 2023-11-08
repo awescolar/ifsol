@@ -60,6 +60,10 @@
     padding: 7.5rem 0 9rem 0;
 }
 
+.premio-information{
+    max-height: 10.125rem;
+}
+
 .line-center-homepage{
     border: var(--brand-colors-main-color) 1px solid;
 }
@@ -77,5 +81,48 @@
     background-color: var(--brand-colors-main-color);
 }
 .projetos-hoempage{
-    padding-bottom: 10.3125rem;
+    padding-bottom: 10rem;
 }
+
+/* <Groups Homepage> */
+
+.groups-homepage{
+    background-color: var(--branco-2, #F4F6FD);
+    padding: 4.5rem 0rem 4.5rem 0rem;
+}
+
+.nav-groups{
+    padding: 4rem 0rem 3.5rem 0rem;
+}
+
+.groups-items-select{
+    border-bottom: var(--mar-1) 8px solid;
+}
+
+.nav-groups ul{
+    position: relative;
+}
+
+.nav-groups-items{
+    padding-bottom: 2rem !important;
+}
+
+.nav-groups .line-groups{
+    background-color: var(--cinza-2);
+    position: absolute;
+    bottom: 0.1563rem;
+    height: 0.1875rem;
+}
+
+/* </Groups Homepage> */
+
+
+
+/* <Commercial HomePage> */
+
+.commercial-homepage{
+    padding-block: 7.5rem;
+}
+
+
+/* </Commercial HomePage> */
