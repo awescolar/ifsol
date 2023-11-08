@@ -4,9 +4,14 @@
     padding-bottom: 14.25rem;
 }
 
+.timeline-homepage{
+    padding: 8.5rem 0rem 11.0625rem 0rem;
+}
+
 .timeline-part{
     position: relative;
-    height: 100% !important;
+    min-height: 37.5rem;
+    overflow: hidden;
 }
 
 .page-timeline{
@@ -48,8 +53,7 @@
 .team-homepage{
     padding-top: 108px;
     height: 1072px;
-    background-color: #FFFAF2;
-    background: url(../imgs/ilustra.svg) no-repeat left bottom;
+    background: url(../imgs/ilustra.svg) #FFFAF2 no-repeat left bottom;
 }
 
 .premios-homepage{

@@ -56,8 +56,12 @@ li{
     border-bottom: 2px solid #ff9100;
 }
 
+.navegacao-select-hover{
+    border-color: var(--brand-colors-main-color);
+}
+
 .navegacao-select-hover:hover {
-    border-bottom: 2px solid #ff9100;
+    border-bottom: 1px solid #ff9100;
 }
 
 .gap-32{
