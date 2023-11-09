@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+h1{
+    font-size: 36px !important;
+    font-family: 'Roboto', sans-serif;
+    color: var(--brand-colors-third) !important;
+}
+
+h2{
+    max-width: 600px;
+    margin: 25px 0px !important;
+    color: var(--dark-colors-dark-1, #3A3A3C);
+    font-weight: 400 !important;
+}
+
+.card{
+    padding: 0 !important;
+}
+
+.pass{
+    margin: 80px auto;
+    p{
+        margin-bottom: 0 !important;
+    }
+}
+
+.container-cards{
+    min-height: 53rem;
+}
