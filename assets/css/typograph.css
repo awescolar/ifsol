@@ -9,7 +9,7 @@ h1{
 }
 
 .medium-font{
-    font-size: 48px;
+    font-size: 48px !important;
     font-weight: 700;
 }
 
