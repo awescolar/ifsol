@@ -46,6 +46,7 @@ li{
     color: var(--black, #1B1B1B);
     border-radius: 0.25rem;
     font-weight: 700;
+    padding: 0.25rem 0.5rem;
 }
 
 .include-img{
@@ -57,7 +58,7 @@ li{
     left: 0.5rem;
     position: absolute;
 }
-.navegacao-select {
+nav.navegation-between-pages a:last-child{
     border-bottom: 2px solid #ff9100;
 }
 
