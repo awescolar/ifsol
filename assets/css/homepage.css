@@ -124,13 +124,14 @@
     padding-block: 7.5rem;
 }
 
-
 /* </Commercial HomePage> */
 
 
 
 /* <Notícias-Núcleos HomePage> */
-.noticias-nucleo-homepage{
-    padding: 7.5rem 0rem;
 
+.noticias-nucleo-homepage{
+    padding: 7.5rem 0rem
 }
+
+/* <Notícias-Núcleos HomePage> */

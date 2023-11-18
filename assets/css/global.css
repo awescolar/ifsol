@@ -34,6 +34,7 @@ li{
 
 .hover-transform:hover{
     transform: scale(1.025);
+    cursor: pointer;
 }
 
 .totalmente-100{
@@ -71,10 +72,53 @@ nav.navegation-between-pages a:last-child{
 }
 
 .gap-32{
-    gap: 32px;
+    gap: 2rem;
 }
 
-/* HEADER STYLE - INICIAL */
+.gap-40{
+    gap: 2.5rem;
+}
+
+/* <TIMELINE> */
+
+.timeline-part{
+    position: relative;
+    min-height: 37.5rem;
+    overflow: hidden;
+}
+
+.page-timeline{
+    max-width: 57rem !important;
+    height: 41rem;
+}
+
+.timeline{
+    background-color: var(--verde);
+    width: 0.4375rem;
+    height: 100%;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.card-timeline{
+    max-width: 29.75rem;
+}
+
+.gradient-saiba-mais{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 5.09%, #FFF 51.95%) !important;
+    padding: 9.6875rem 0rem 2.875rem 0rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* </TIMELINE> */
+
+
+/* <HEADER STYLE> */
 
 .header-awe-background{
     background-color: var(--brand-colors-secondary, #01350B);
@@ -88,11 +132,11 @@ nav.navegation-between-pages a:last-child{
     border-bottom: var(--brand-colors-main-color, #FF9100) 1px solid;
 }
 
-/* HEADER STYLE - FINAL */
+/* </HEADER STYLE> */
 
 /* -/-/-/-/-/-/-/-/---/-/-/-/-/-/-/- */
 
-/* FOOTER STYLE - INICIAL */
+/* <FOOTER STYLE> */
 
 footer {
     background-color: var(--brand-colors-secondary, #01350B);
@@ -129,4 +173,4 @@ footer p {
     border-top: 1px solid var(--brand-colors-main-color, #FF9100);
 }
 
-/* FOOTER STYLE - FINAL */
+/* </FOOTER STYLE> */
