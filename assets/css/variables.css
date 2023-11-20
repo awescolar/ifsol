@@ -26,6 +26,10 @@
     --light-color-light-2: #EBEBF0;
     --light-color-light-3: #F5F9FF;
     --light-color-light-4: #FCFCFD;
+
+    --light-color-black-colors-back-1: #FFF6EC;
+    --light-color-black-colors-back-2: #FCFCFC;
+    --light-color-black-colors-back-3: #F7F7F7;
 }
 
 .brand-main-color{color: var(--brand-colors-main-color);} .brand-complementary-color{color: var(--brand-colors-complementary);} .brand-secondary-color{color: var(--brand-colors-secondary);} .brand-third-color{color: var(--brand-colors-third);}
@@ -33,6 +37,5 @@
 .light-1-color{color: var(--light-color-light-1);} .light-2-color{color: var(--light-color-light-2);} .light-3-color{color: var(--light-color-light-3);} .light-4-color{color: var(--light-color-light-4);}
 .branco-color{color: var(--branco);} .branco-2-color{color: var(--branco-2);}  .mar-1-color{color: var(--mar-1);} .cinza-color{color: var(--cinza);} .black-color{color: var(--black);} .amarelo-1-color{color: var(--amarelo-1);} .azul-color{color: var(--azul);} .black-2-color{color: var(--black-2-color);}
 
-.background-mar-1{
-    background-color: var(--mar-1);
-}
+.background-mar-1{background-color: var(--mar-1);}
+.light-back-1{background-color: var(--light-color-black-colors-back-1);} .light-back-2{background-color: var(--light-color-black-colors-back-2);} .light-back-3{background-color: var(--light-color-black-colors-back-3);}
