@@ -31,3 +31,13 @@
     border: 1px solid var(--brand-colors-secondary);
     border-radius: 0.625rem;
 }
+
+.card-projetos{
+    border-radius: 8px;
+    border: 1px solid #8F90A6;
+    background: var(--light-color-black-colors-back-2, #FCFCFC);
+}
+
+.parceiros-figure{
+    column-gap: 4rem;
+}
