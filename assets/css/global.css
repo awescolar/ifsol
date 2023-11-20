@@ -30,6 +30,7 @@ li{
 
 .transition-ease-in {
     transition: all 0.3s ease-in;
+    border: transparent 1px solid;
 }
 
 .hover-transform:hover{
@@ -60,15 +61,15 @@ li{
     position: absolute;
 }
 nav.navegation-between-pages a:last-child{
-    border-bottom: 2px solid #ff9100;
+    border-bottom: 2px solid var(--brand-colors-main-color);
 }
 
-.navegacao-select-hover{
-    border-color: var(--brand-colors-main-color);
+.navegacao-select{
+    border-bottom: var(--brand-colors-main-color) 1px solid;
 }
 
 .navegacao-select-hover:hover {
-    border-bottom: 1px solid #ff9100;
+    border-bottom: 1px solid var(--brand-colors-main-color);
 }
 
 .gap-32{

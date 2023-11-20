@@ -13,7 +13,6 @@
 
 .button-hero-campus{
     padding: 0.5rem 3rem;
-    border: transparent 1px solid;
     background-color: var(--brand-colors-main-color);
     border-radius: 0.25rem;
 }
@@ -22,4 +21,13 @@
     background-color: transparent;
     border: var(--brand-colors-main-color) 1px solid;
     color: var(--amarelo-1);
+}
+
+.projetos-campus{
+    padding-top: 6.75rem;
+}
+
+.button-card-projeto{
+    border: 1px solid var(--brand-colors-secondary);
+    border-radius: 0.625rem;
 }

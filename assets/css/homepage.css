@@ -4,44 +4,6 @@
     padding-bottom: 14.25rem;
 }
 
-.timeline-homepage{
-    padding: 8.5rem 0rem 11.0625rem 0rem;
-}
-
-.timeline-part{
-    position: relative;
-    min-height: 37.5rem;
-    overflow: hidden;
-}
-
-.page-timeline{
-    max-width: 57rem !important;
-    height: 41rem;
-}
-
-.timeline{
-    background-color: var(--verde);
-    width: 0.4375rem;
-    height: 100%;
-    position: absolute;
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-
-.card-timeline{
-    max-width: 29.75rem;
-}
-
-.gradient-saiba-mais{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 5.09%, #FFF 51.95%) !important;
-    padding: 9.6875rem 0rem 2.875rem 0rem;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
 .card-team{
     width: 255px;
     height: 213px;
@@ -51,7 +13,7 @@
 }
 
 .team-homepage{
-    padding-top: 108px;
+    padding-top: 6.75rem;
     height: 1072px;
     background: url(../imgs/ilustra.svg) #FFFAF2 no-repeat left bottom;
 }
