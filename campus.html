@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Núcleos: IF Sol - Incubadora de Economia Solidária do IFRN</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/typograph.css">
+    <link rel="stylesheet" href="assets/css/campus.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Incial - IFSOl</title>
 </head>
 <body>
 
     <header class="header pt-2 pb-2">
         <div class="container">
-            <div class="row">
-                <div class="col-3"></div>
+            <div class="row align-items-center pt-3 pb-3">
+                <div class="col-3">
+                    <img src="assets/imgs/Group.svg" alt="">
+                </div>
                 <nav class="col-9">
-                    <ul class="menu text-end">                        
-                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu">Notícias</a></li>
-                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu">Sobre nós</a></li>
-                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu">Núcleos</a></li>
-                        <li class="item-menu d-inline-block text-uppercase ms-2"><a href="#" class="link-menu">Contato</a></li>
+                    <ul class="menu text-end d-flex justify-content-end gap-40">                        
+                        <li class="item-menu"><a href="homepage.html" class="link-menu transition-ease-in black-2-color">Inicial</a></li>
+                        <li class="item-menu"><a href="about.html" class="link-menu transition-ease-in black-2-color">Sobre</a></li>
+                        <li class="item-menu"><a href="post.html" class="link-menu transition-ease-in black-2-color">Notícias</a></li>
+                        <li class="item-menu"><a href="nucleos.html" class="link-menu transition-ease-in black-2-color">Núcleos</a></li>
+                        <li class="item-menu"><a href="campus.html" class="link-menu transition-ease-in black-2-color">Contato</a></li>
                     </ul>
                 </nav>
             </div>
@@ -25,10 +36,206 @@
     </header>
 
     <main class="principal">
+        <section class="hero-campus background-campus">
+            <div class="background-filter-campus padding-section">
+                <div class="container">
+                    <nav class="navegation-between-pages pb-5">
+                        <ul class="d-flex gap-3">
+                            <li class="d-flex gap-3">
+                                <a class="branco-color navegacao-select-hover transition-ease-in" href="">Inicial</a>
+                                <img src="assets/imgs/right-arrow.svg" alt="seta-direita">
+                            </li>
+                            <li class="d-flex gap-3">
+                                <a class="branco-color navegacao-select-hover transition-ease-in" href="">Campus</a>
+                                <img src="assets/imgs/right-arrow.svg" alt="seta-direita">
+                            </li>
+                            <li class="d-flex gap-3">
+                                <a class="branco-color" href="">Nome do campus</a>
+                            </li>
+                        </ul>
+                
+                    </nav>
+                    <div class="row">
+                        <div class="col-5">
+                            <h2 class="pb-4 branco-color">IFSOL Natal Zona Norte</h2>
+                            <p class="pb-4 branco-color large-font">Na economia solidária, semeamos cooperação para colher prosperidade coletiva, nutrindo um futuro de equidade e crescimento sustentável.</p>
+                            <a class="button-hero-campus transition-ease-in light-4-color fw-bold" href="">Contato</a>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="timeline-homepage pt-5">
+            <div class="container pt-5">
+                <div class="row justify-content-center">
+                    <div class="page-timeline d-flex flex-column align-items-center">
+                        <h3 class="pb-5 mar-1-color">Linha do tempo</h3>
+                        <div class="timeline-part totalmente-100 mt-5 d-flex">
+                            <div class="text-center gradient-saiba-mais">
+                                <a class="brand-main-color text-decoration-underline" href="">Saiba mais</a>
+                            </div>
+                            <div class="timeline"></div>
+                            <div class="information-timeline d-flex totalmente-100 flex-column row-gap-3">
+                                <div class="card-timeline d-flex flex-row-reverse column-gap-4">
+                                    <div>
+                                        <img src="assets/imgs/ilustra(1).svg" alt="">
+                                    </div>
+                                    <article class="text-end d-flex flex-column row-gap-2">
+                                        <header class="">
+                                            <h6 class="mar-1-color">Lorem ipsum</h6>
+                                            <p class="cinza-color">00/00/0000</p>
+                                        </header>
+                                        <p class="cinza-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                    </article>
+                                </div>
+
+                                <div class="card-timeline align-self-end d-flex column-gap-4">
+                                    <div>
+                                        <img src="assets/imgs/ilustra(1).svg" alt="">
+                                    </div>
+                                    <article class="d-flex flex-column row-gap-2">
+                                        <header class="">
+                                            <h6 class="mar-1-color">Lorem ipsum</h6>
+                                            <p class="cinza-color">00/00/0000</p>
+                                        </header>
+                                        <p class="cinza-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                    </article>
+                                </div>
+                                
+                                <div class="card-timeline d-flex flex-row-reverse column-gap-4">
+                                    <div>
+                                        <img src="assets/imgs/ilustra(1).svg" alt="">
+                                    </div>
+                                    <article class="text-end d-flex flex-column row-gap-2">
+                                        <header class="">
+                                            <h6 class="mar-1-color">Lorem ipsum</h6>
+                                            <p class="cinza-color">00/00/0000</p>
+                                        </header>
+                                        <p class="cinza-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                    </article>
+                                </div>
+
+                                <div class="card-timeline align-self-end d-flex column-gap-4">
+                                    <div>
+                                        <img src="assets/imgs/ilustra(1).svg" alt="">
+                                    </div>
+                                    <article class="d-flex flex-column row-gap-2">
+                                        <header class="">
+                                            <h6 class="mar-1-color">Lorem ipsum</h6>
+                                            <p class="cinza-color">00/00/0000</p>
+                                        </header>
+                                        <p class="cinza-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                    </article>
+                                </div>
+
+                                <div class="card-timeline d-flex flex-row-reverse column-gap-4">
+                                    <div>
+                                        <img src="assets/imgs/ilustra(1).svg" alt="">
+                                    </div>
+                                    <article class="text-end d-flex flex-column row-gap-2">
+                                        <header class="">
+                                            <h6 class="mar-1-color">Lorem ipsum</h6>
+                                            <p class="cinza-color">00/00/0000</p>
+                                        </header>
+                                        <p class="cinza-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                    </article>
+                                </div>
+
+                                <div class="card-timeline align-self-end d-flex column-gap-4">
+                                    <div>
+                                        <img src="assets/imgs/ilustra(1).svg" alt="">
+                                    </div>
+                                    <article class="d-flex flex-column row-gap-2">
+                                        <header class="">
+                                            <h6 class="mar-1-color">Lorem ipsum</h6>
+                                            <p class="cinza-color">00/00/0000</p>
+                                        </header>
+                                        <p class="cinza-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                    </article>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="projetos-campus">
+            <div class="container">
+                <div class="text-center pb-5">
+                    <h3 class="pb-4 brand-secondary-color">Projetos</h3>
+                    <nav>
+                        <ul class="d-flex column-gap-5 justify-content-center">
+                            <li><a class="dark-1-color navegacao-select-hover transition-ease-in" href="">Todos</a></li>
+                            <li><a class="brand-main-color navegacao-select" href="">Pesquisa</a></li>
+                            <li><a class="dark-1-color navegacao-select-hover transition-ease-in" href="">Extensão</a></li>
+                        </ul>
+                        
+                    </nav>
+                </div>
+                
+                <div class="row column-gap-3">
+                    <div class="card-projetos col p-5">
+                        <article>
+                            <header>
+                                <p class="mar-1-color medium-font fw-medium">
+                                    Agricultura familiar e os aspectos de sucesso na implantação de economia solidária
+                                </p>
+                            </header>
+                            <p class="pt-3 pb-3 dark-1-color">A agricultura familiar, ao abraçar a economia solidária, floresce em sucessos compartilhados, promovendo a sustentabilidade ambiental, a inclusão social e a valorização dos saberes ancestrais.</p>
+                            <a class="button-card-projeto px-3 py-2 brand-secondary-color d-inline-flex align-items-center column-gap-3 hover-transform transition-ease-in" href="">Leia Mais <img src="assets/imgs/ícones (1).svg" alt=""></a>
+                        </article>
+                    </div>
+                    <div class="card-projetos col p-5">
+                        <article>
+                            <header>
+                                <p class="mar-1-color medium-font fw-medium">
+                                    Agricultura familiar e os aspectos de sucesso na implantação de economia solidária
+                                </p>
+                            </header>
+                            <p class="pt-3 pb-3 dark-1-color">A agricultura familiar, ao abraçar a economia solidária, floresce em sucessos compartilhados, promovendo a sustentabilidade ambiental, a inclusão social e a valorização dos saberes ancestrais.</p>
+                            <a class="button-card-projeto px-3 py-2 brand-secondary-color d-inline-flex align-items-center column-gap-3 hover-transform transition-ease-in" href="">Leia Mais <img src="assets/imgs/ícones (1).svg" alt=""></a>
+                        </article>
+                    </div>
+                    <div class="card-projetos col p-5">
+                        <article>
+                            <header>
+                                <p class="mar-1-color medium-font fw-medium">
+                                    Agricultura familiar e os aspectos de sucesso na implantação de economia solidária
+                                </p>
+                            </header>
+                            <p class="pt-3 pb-3 dark-1-color">A agricultura familiar, ao abraçar a economia solidária, floresce em sucessos compartilhados, promovendo a sustentabilidade ambiental, a inclusão social e a valorização dos saberes ancestrais.</p>
+                            <a class="button-card-projeto px-3 py-2 brand-secondary-color d-inline-flex align-items-center column-gap-3 hover-transform transition-ease-in" href="">Leia Mais <img src="assets/imgs/ícones (1).svg" alt=""></a>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="pass d-flex gap-4 justify-content-center align-items-center">
+                    <button class="hover-transform transition-ease-in"><img src="assets/imgs/seta-left-green.svg" alt="left-arow-orange"></button>
+                    <span>1/2</span>
+                    <button class="hover-transform transition-ease-in"><img src="assets/imgs/seta-right-green.svg" alt="right-arow-orange"></button>
+                </div>
+                
+            </div>
+
+
+        </section>
+
 
         
     </main>
-   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
 </body>
 </html>

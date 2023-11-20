@@ -1,0 +1,99 @@
+.hero-homepage{
+    background: url(../imgs/image\ 16_9.svg) no-repeat;
+    background-size: cover;
+    padding-bottom: 14.25rem;
+}
+
+.card-team{
+    width: 255px;
+    height: 213px;
+    border: 1px solid var(--cinza-2);
+    border-radius: 8px;
+    background-color: var(--branco-2);
+}
+
+.team-homepage{
+    padding-top: 6.75rem;
+    height: 1072px;
+    background: url(../imgs/ilustra.svg) #FFFAF2 no-repeat left bottom;
+}
+
+.premios-homepage{
+    padding: 7.5rem 0 9rem 0;
+}
+
+.premio-information{
+    max-height: 10.125rem;
+}
+
+.line-center-homepage{
+    border: var(--brand-colors-main-color) 1px solid;
+}
+.card-projetos{
+    background-color: var(--branco-2);
+    border-radius: 0.625rem;
+}
+
+.btn-page-projeto{
+    padding: 0.5625rem 1.0625rem;
+}
+
+.page-projetos-select{
+    border-radius: 3.25rem;
+    background-color: var(--brand-colors-main-color);
+}
+.projetos-hoempage{
+    padding-bottom: 10rem;
+}
+
+/* <Groups Homepage> */
+
+.groups-homepage{
+    background-color: var(--branco-2, #F4F6FD);
+    padding: 4.5rem 0rem 4.5rem 0rem;
+}
+
+.nav-groups{
+    padding: 4rem 0rem 3.5rem 0rem;
+}
+
+.groups-items-select{
+    border-bottom: var(--mar-1) 8px solid;
+}
+
+.nav-groups ul{
+    position: relative;
+}
+
+.nav-groups-items{
+    padding-bottom: 2rem !important;
+}
+
+.nav-groups .line-groups{
+    background-color: var(--cinza-2);
+    position: absolute;
+    bottom: 0.1563rem;
+    height: 0.1875rem;
+}
+
+/* </Groups Homepage> */
+
+
+
+/* <Commercial HomePage> */
+
+.commercial-homepage{
+    padding-block: 7.5rem;
+}
+
+/* </Commercial HomePage> */
+
+
+
+/* <Notícias-Núcleos HomePage> */
+
+.noticias-nucleo-homepage{
+    padding: 7.5rem 0rem
+}
+
+/* <Notícias-Núcleos HomePage> */

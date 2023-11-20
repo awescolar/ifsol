@@ -1,0 +1,33 @@
+.padding-section{
+    padding: 3.5rem 0rem;
+}
+
+.background-campus{
+    background-image: url(../imgs/Background.svg);
+    background-size: cover;
+}
+
+.background-filter-campus{
+    background: linear-gradient(262deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 0.01%, rgba(0, 0, 0, 0.80) 46.9%);
+}
+
+.button-hero-campus{
+    padding: 0.5rem 3rem;
+    background-color: var(--brand-colors-main-color);
+    border-radius: 0.25rem;
+}
+
+.button-hero-campus:hover{
+    background-color: transparent;
+    border: var(--brand-colors-main-color) 1px solid;
+    color: var(--amarelo-1);
+}
+
+.projetos-campus{
+    padding-top: 6.75rem;
+}
+
+.button-card-projeto{
+    border: 1px solid var(--brand-colors-secondary);
+    border-radius: 0.625rem;
+}
