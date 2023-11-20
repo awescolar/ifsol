@@ -1,16 +1,17 @@
 .ultimas-publicacoes{
     .publicacoes{
         .left{
-            h4{
+            h6{
                 font-weight: 400;
             }
         }
         .right{
-            width: 100%;
             .item-noticias{
                 display: inline-block;
+                max-width: 289px;
                 .img{
-                    width: 289px;
+                    max-width: 289px;
+                    width: 100%;
                     height: 170px;
                     border: .5px solid var(--cinza-2);
                 }
