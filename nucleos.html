@@ -39,17 +39,28 @@
     </header>
 
     <main class="principal">
-        <div class="container d-flex flex-column align-items-center">
-            <div class="navegacao d-flex gap-3 align-self-start">
-                <a>Inicial</a>
-                <img src="assets/imgs/right-arrow.svg" alt="seta-direita">
-                <a>Campus</a>
+        <div class="container">
+            <nav class="navegation-between-pages pt-5 pb-5">
+                <ul class="d-flex gap-3">
+                    <li class="d-flex gap-3">
+                        <a class="cinza-color navegacao-select-hover transition-ease-in" href="">Inicial</a>
+                        <img src="assets/imgs/right-arrow.svg" alt="seta-direita">
+                    </li>
+                    <li class="">
+                        <a class="cinza-color" href="">Campus</a>
+                    </li>
+                </ul>
+        
+            </nav>
+            
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="text-center">Núcleos do IFSOL</h1>
+                <h2 class="text-center large-font">
+                    Aqui estão listados todos os campus que fazem parte do projeto IF Solidário
+                </h2>
             </div>
-            <h1 class="text-center">Núcleos do IFSOL</h1>
-            <h2 class="text-center large-font">
-                Aqui estão listados todos os campus que fazem parte do projeto IF Solidário
-            </h2>
-            <div class="container container-cards">
+
+            <div class="container-cards">
                 <div class="row mb-4 mb-4 d-flex justify-content-between">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/imgs/natal-central.png" class="card-img-top" alt="natal-central">
