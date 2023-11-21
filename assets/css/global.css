@@ -86,6 +86,7 @@ nav.navegation-between-pages a:last-child{
     position: relative;
     min-height: 37.5rem;
     overflow: hidden;
+    z-index: 0;
 }
 
 .page-timeline{
