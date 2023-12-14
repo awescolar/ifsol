@@ -1,0 +1,68 @@
+*{
+    line-height: 160%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3,h1{
+    font-weight: 700;
+}
+h3{
+    font-size: 24px;
+}
+
+.principal{
+    .principios{
+        margin: 150px 0px;
+        h1{
+            font-size: 48px;
+            color: var(--mar-1)
+        }
+    }
+    .conteudo{
+        max-width: 500px;
+        gap: 56px;
+
+        h2{
+            font-family: 'Rubik', sans-serif;
+            font-weight: 700;
+            color: var(--mar-1);
+        }
+    }
+    .container-principios{
+        .item-principio{
+            margin-top: 120px;
+            width: min-content;
+            p{
+                text-align: justify;
+            }
+            h3{
+                width: max-content;
+            }
+        }
+    }
+    .ideais{
+        background-color: var(--mar-1);
+        .container{
+            padding: 120px 48px 160px;
+            .row div{
+                padding: 56px 48px;
+                background: var(--branco-2);
+                border-radius: 8px;
+                h2{
+                    padding-bottom: 40px;
+                    border-bottom: 2px solid var(--brand-colors-main-color);
+                    font-size: 40px;
+                }
+                ul{
+                    margin-top: 40px !important;
+                    list-style: none;
+                    padding-left: 0;
+                    gap: 24px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
