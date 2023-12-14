@@ -44,6 +44,10 @@ h6, .extra-large-fonte{
     font-size: 1.125rem;
 }
 
+.px-20{
+    font-size: 20px;
+}
+
 .medium-font{
     font-size: 3rem;
 }
