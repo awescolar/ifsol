@@ -1,14 +1,6 @@
-* {
-  line-height: 160%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h3, h1 {
-  font-weight: 700;
-}
-
+@charset "UTF-8";
+/*Variáveis-início*/
+/*Variáveis-fim*/
 h3 {
   font-size: 24px;
 }

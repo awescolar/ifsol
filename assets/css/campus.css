@@ -41,3 +41,18 @@
 .parceiros-figure{
     column-gap: 4rem;
 }
+
+.btn-noticias-contato{
+    padding: 0.75rem 1.25rem;
+    column-gap: 0.625rem;
+    border-radius: 8px;
+    border: 2px solid var(--brand-colors-secondary, #01350B);
+}
+
+.etiqueta-btn{
+    background-color: var(--brand-colors-main-color);
+}
+
+.p-seca-nordeste{
+    line-height: 200%;
+}
